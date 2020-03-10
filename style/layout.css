@@ -1,0 +1,106 @@
+header {
+  height: 75px;
+  width: 450px;
+  line-height: 75px;
+  background-color: yellow;
+  text-align: center;
+  border: 5px solid black; 
+}
+
+div {
+  height: 150px;
+  width: 480px;
+  background-color: red;
+  line-height: 150px;
+  text-align: center;
+  border: 5px solid black; 
+}
+
+main {
+  border: 5px solid black; 
+  width: 150px;
+}
+
+p:first-child {
+  width: 480px;
+  height: 125px;
+  background-color: blue;
+  line-height: 125px;
+  text-align: center;
+  border: 5px solid black; 
+}
+
+p:last-child {
+  width: 480px;
+  height: 125px;
+  background-color: green;
+  line-height: 125px;
+  text-align: center;
+  border: 5px solid black; 
+}
+
+article{
+  width: 480px;
+  height: 500px;
+
+}
+
+section:first-child{
+  float: left;
+  width: 240px;
+  height: 250px;
+  background-color: hotpink;
+  line-height: 250px;
+  text-align: center;
+  border: 5px solid black; 
+}
+
+section:nth-child(2){
+  float: right;
+  width: 240px;
+  height: 250px;
+  background-color: lawngreen;
+  line-height: 250px;
+  text-align: center;
+  border: 5px solid black; 
+}
+
+section:nth-child(3){
+  float: left;
+  width: 240px;
+  height: 250px;
+  background-color: lightseagreen;
+  line-height: 250px;
+  text-align: center;
+  border: 5px solid black; 
+}
+
+section:last-child{
+  float:right;
+  width: 240px;
+  height: 250px;
+  background-color: lime;
+  line-height: 250px;
+  text-align: center;
+  border: 5px solid black; 
+}
+
+footer {
+  width: 480px;
+  height: 80px;
+  background-color: maroon;
+  line-height: 80px;
+  text-align: center;
+  border: 5px solid black; 
+
+}
+
+@media (min-width:768px){
+  section{
+    display: inline-block;
+  }
+}
+
+@media (max-width:960px){
+
+}
